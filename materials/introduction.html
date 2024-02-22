@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChemConverters App Description</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 10px;
+            line-height: 1.6;
+        }
+        .link-button {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            margin: 10px;
+            padding: 10px;
+            background-color: white;
+            border: 1px solid grey; /* Added border to make the button visible against white background */
+            color: #007bff; /* Text color changed to make it visible against white background */
+            text-decoration: none;
+            border-radius: 10px;
+            text-align: center;
+            vertical-align: middle;
+            box-sizing: border-box;
+        }
+        .link-button:hover {
+            background-color: #c0dcfc;
+        }
+        .link-button img {
+            height: 20px;
+            width: auto;
+            display: block;
+        }
+        .links-container {
+            text-align: center; /* Center the container's content */
+            margin: auto; /* Auto margins for horizontal centering if necessary */
+            display: flex; /* Use flexbox */
+            justify-content: center; /* Center flex items horizontally */
+            flex-wrap: wrap; /* Allow items to wrap */
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome to ChemicalConverters!</h2>
+    <h3>With ChemConverters, you can effortlessly:</h3>
+    <ol>
+        <li>Convert SMILES strings to IUPAC names and vice versa 🔄</li>
+        <li>Choose your preferred IUPAC naming style: BASE, SYSTEMATIC, or TRADITIONAL 📚</li>
+        <li>Validate chemical naming with molecules fingerprints similarity for accuracy checks ✔️</li>
+    </ol>
+    <h3>What is ChemConverters?</h3>
+    <p>ChemicalConverters serves as a foundational showcase of our technological capabilities within the chemical domain. The models deployed in this application represent our entry-level offerings, designed to provide a glimpse into the potential applications of our advanced solutions. For access to our comprehensive suite of larger and more precise models, we invite interested parties to engage directly with us. Developed by the brilliant minds at Knowledgator, this app showcases the abilities of our chemical transformer models. Whether you're working on a research project, studying for an exam, or just exploring the chemical universe, ChemicalConverters is your go-to tool 🛠.<p>
+    <h3>Models Availability</h3>
+    <p>All models used in the applications are available on <a href="https://huggingface.co/knowledgator/" target="_blank">our Hugging Face page</a>. For translating from SMILES to IUPAC, the <a href="https://huggingface.co/knowledgator/SMILES2IUPAC-canonical-base" target="_blank">knowledgator/SMILES2IUPAC-canonical-base</a> model was used. To translate from IUPAC to SMILES, the <a href="https://huggingface.co/knowledgator/IUPAC2SMILES-canonical-base" target="_blank">knowledgator/IUPAC2SMILES-canonical-base</a> model was used.</p>
+    <h3>Citation</h3>
+    <p>Coming soon</p>
+    <h3>Remember, chemistry is not just about reactions; it's about connections. Let's build those connections together! 💫</h3>
+    <!-- Links Section -->
+    <div class="links-container">
+        <a href="https://www.knowledgator.com/" class="link-button" target="_blank"><img src="https://assets-global.website-files.com/65902be8ba48a05dfdb73331/6590476fcc8e8f35b2332781_Group%201000002504%20(1).png" alt="Visit our website"></a>
+        <a href="https://www.linkedin.com/company/knowledgator/" class="link-button" target="_blank"><img src="https://www.edigitalagency.com.au/wp-content/uploads/Linkedin-logo-png.png" alt="Follow on LinkedIn"></a>
+        <a href="https://huggingface.co/knowledgator/" class="link-button" target="_blank"><img src="https://vectorseek.com/wp-content/uploads/2023/12/Hugging-Face-Logo-Vector.svg-.png" alt="Hugging Face Profile"></a>
+        <a href="https://twitter.com/knowledgator" class="link-button" target="_blank"><img src="https://freepnglogo.com/images/all_img/1691832278twitter-x-logo-png.png" alt="Follow on X"></a>
+        <a href="https://discord.com/invite/dkyeAgs9DG" class="link-button" target="_blank"><img src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/636e0b52aa9e99b832574a53_full_logo_blurple_RGB.png" alt="Join our Discord"></a>
+        <a href="https://blog.knowledgator.com/" class="link-button" target="_blank"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Medium_%28website%29_logo.svg/2560px-Medium_%28website%29_logo.svg.png" alt="Follow on Medium"></a>
+    </div>
+</body>
+</html>
